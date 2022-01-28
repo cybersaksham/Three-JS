@@ -2,7 +2,6 @@
 
 ## What we learned?
 
-<hr />
 <li>In this tutorial, we have learned to integrate three js with simple html and js file without any server.</li>
 
 <li>We have created a simple red cube.</li>
@@ -11,7 +10,6 @@
 
 ## Importing Three JS
 
-<hr />
 
 ```cmd
 <script src="./three.min.js"></script>
