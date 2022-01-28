@@ -11,19 +11,19 @@
 ## Importing Three JS
 
 
-```cmd
+```html
 <script src="./three.min.js"></script>
 ```
 
 ## Creating Scene
 
-```cmd
+```js
 const scene = new THREE.Scene();
 ```
 
 ## Geometry & Material
 
-```cmd
+```js
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial({ color: "red" });
 let cube = new THREE.Mesh(geometry, material);
@@ -32,7 +32,7 @@ scene.add(cube);
 
 ## Sizes
 
-```cmd
+```js
 const sizes = {
   width: 800,
   height: 600,
@@ -41,7 +41,7 @@ const sizes = {
 
 ## Camera
 
-```cmd
+```js
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height);
 camera.position.z = 3;
 scene.add(camera);
@@ -49,7 +49,7 @@ scene.add(camera);
 
 ## Rendering
 
-```cmd
+```js
 const canvas = document.getElementById("canvas");
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
