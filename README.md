@@ -72,7 +72,7 @@ tick();
 ## In-built Controls
 
 <li>Three.js has different type of controls with different functionalities.</li>
-<li>You can see them all <a href="https://threejs.org/docs/?q=controls">docs</a> to view all controls.</li>
+<li>You can see them all in <a href="https://threejs.org/docs/?q=controls">docs</a>.li>
 
 ```js
 // Importing
