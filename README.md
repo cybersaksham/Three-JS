@@ -236,10 +236,10 @@ colorTexture.generateMipmaps = false;
 
 ## 2. Size
 
-<li>We should keep our size or resolution low wherever not needed. Because each pixles is stored in GPU & it has memory limitations.</li>
-<li>Mipmapping reduces size dividing by 2. So we shold keep our resolution in powers of 2 otherwise it will do extra processing in resizing that image.</li>
+<li>We should keep our size or resolution low wherever high resolution is not needed. Because each pixel is stored in GPU & it has memory limitations.</li>
+<li>Mipmapping reduces size dividing by 2. So we should keep our resolution in powers of 2 otherwise it will do extra processing in resizing that image.</li>
 
 ## 3. Data
 
 <li>Textures support transparency but we cant have transparency in .jpg files so to combine some alpha textures better use .png files.</li>
-<li>In normal textures, we nees exact loaction of pixels so we should not use jpg in normal texturs.</li>
+<li>In normal textures, we need exact location of pixels so we should not use jpg in normal textures.</li>
