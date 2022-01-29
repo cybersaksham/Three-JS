@@ -219,7 +219,7 @@ colorTexture.magFilter = THREE.NearestFilter;
 ```
 
 <li>Nearest filters are really good & also performance friendly so we should use them if needed.</li>
-<li>While using Nearest filter on minfilter, we dont need mipmapping so we should diable it. It enhances the performance.</li>
+<li>While using Nearest filter on minfilter, we dont need mipmapping so we should disable it. It enhances the performance.</li>
 
 ```js
 colorTexture.generateMipmaps = false;
